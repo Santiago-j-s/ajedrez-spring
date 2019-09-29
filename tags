@@ -55,15 +55,21 @@ DIRNAME	gradlew.bat	/^if "%DIRNAME%" == "" set DIRNAME=.$/;"	v
 DIRNAME	gradlew.bat	/^set DIRNAME=%~dp0$/;"	v
 Getting Started	HELP.md	/^# Getting Started$/;"	c
 Guides	HELP.md	/^### Guides$/;"	S
+IntegrationTests	build/reports/tests/test/classes/com.example.ajedrez.IntegrationTests.html	/^<h1>IntegrationTests<\/h1>$/;"	h
 JAVA_EXE	gradlew.bat	/^set JAVA_EXE=%JAVA_HOME%\/bin\/java.exe$/;"	v
 JAVA_EXE	gradlew.bat	/^set JAVA_EXE=java.exe$/;"	v
 JAVA_HOME	gradlew.bat	/^set JAVA_HOME=%JAVA_HOME:"=%$/;"	v
 Package com.example.ajedrez	build/reports/tests/test/packages/com.example.ajedrez.html	/^<h1>Package com.example.ajedrez<\/h1>$/;"	h
 Packages	build/reports/tests/test/index.html	/^<h2>Packages<\/h2>$/;"	i
 Reference Documentation	HELP.md	/^### Reference Documentation$/;"	S
+RepositoriesTests	build/reports/tests/test/classes/com.example.ajedrez.RepositoriesTests.html	/^<h1>RepositoriesTests<\/h1>$/;"	h
 Standard output	build/reports/tests/test/classes/com.example.ajedrez.AjedrezApplicationTests.html	/^<h2>Standard output<\/h2>$/;"	i
+Standard output	build/reports/tests/test/classes/com.example.ajedrez.IntegrationTests.html	/^<h2>Standard output<\/h2>$/;"	i
+Standard output	build/reports/tests/test/classes/com.example.ajedrez.RepositoriesTests.html	/^<h2>Standard output<\/h2>$/;"	i
 Test Summary	build/reports/tests/test/index.html	/^<h1>Test Summary<\/h1>$/;"	h
 Tests	build/reports/tests/test/classes/com.example.ajedrez.AjedrezApplicationTests.html	/^<h2>Tests<\/h2>$/;"	i
+Tests	build/reports/tests/test/classes/com.example.ajedrez.IntegrationTests.html	/^<h2>Tests<\/h2>$/;"	i
+Tests	build/reports/tests/test/classes/com.example.ajedrez.RepositoriesTests.html	/^<h2>Tests<\/h2>$/;"	i
 _SKIP	gradlew.bat	/^set _SKIP=2$/;"	v
 a	build/reports/tests/test/css/base-style.css	/^body, a, a:visited {$/;"	s
 a:visited	build/reports/tests/test/css/base-style.css	/^body, a, a:visited {$/;"	s
@@ -114,6 +120,9 @@ h3	build/reports/tests/test/css/base-style.css	/^h1, h2, h3 {$/;"	s
 init	gradlew.bat	/^:init$/;"	l
 initControls	build/reports/tests/test/js/report.js	/^    function initControls() {$/;"	f
 initTabs	build/reports/tests/test/js/report.js	/^    function initTabs() {$/;"	f
+junit.jupiter.testinstance.lifecycle.default	build/resources/test/junit-platform.properties	/^junit.jupiter.testinstance.lifecycle.default = per_class/;"	k
+junit.jupiter.testinstance.lifecycle.default	out/test/resources/junit-platform.properties	/^junit.jupiter.testinstance.lifecycle.default = per_class/;"	k
+junit.jupiter.testinstance.lifecycle.default	src/test/resources/junit-platform.properties	/^junit.jupiter.testinstance.lifecycle.default = per_class/;"	k
 label	.vscode/tasks.json	/^            "label": "run",$/;"	s	object:tasks.0
 label.hidden	build/reports/tests/test/css/base-style.css	/^label.hidden {$/;"	c
 mainEnd	gradlew.bat	/^:mainEnd$/;"	l
