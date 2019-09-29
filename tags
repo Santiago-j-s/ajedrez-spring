@@ -1,0 +1,146 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/1556085/
+#content	build/reports/tests/test/css/base-style.css	/^#content {$/;"	i
+#content h1	build/reports/tests/test/css/base-style.css	/^#content h1 {$/;"	s
+#duration	build/reports/tests/test/css/style.css	/^#duration {$/;"	i
+#footer	build/reports/tests/test/css/base-style.css	/^#footer {$/;"	i
+#footer	build/reports/tests/test/css/base-style.css	/^#footer, #footer a {$/;"	i
+#footer a	build/reports/tests/test/css/base-style.css	/^#footer, #footer a {$/;"	s
+#label-for-line-wrapping-toggle	build/reports/tests/test/css/base-style.css	/^#label-for-line-wrapping-toggle {$/;"	i
+#line-wrapping-toggle	build/reports/tests/test/css/base-style.css	/^#line-wrapping-toggle {$/;"	i
+#successRate	build/reports/tests/test/css/style.css	/^#successRate {$/;"	i
+#successRate	build/reports/tests/test/css/style.css	/^#successRate, .summaryGroup {$/;"	i
+#successRate .percent	build/reports/tests/test/css/style.css	/^#successRate .percent {$/;"	c
+#successRate.failures	build/reports/tests/test/css/style.css	/^div.failures, #successRate.failures {$/;"	c
+#successRate.success	build/reports/tests/test/css/style.css	/^div.success, #successRate.success {$/;"	c
+#summary	build/reports/tests/test/css/style.css	/^#summary {$/;"	i
+#summary table	build/reports/tests/test/css/style.css	/^#summary table {$/;"	s
+#summary td	build/reports/tests/test/css/style.css	/^#summary td {$/;"	s
+**/.classpath	.vscode/settings.json	/^        "**\/.classpath": true,$/;"	b	object:files.exclude
+**/.factorypath	.vscode/settings.json	/^        "**\/.factorypath": true$/;"	b	object:files.exclude
+**/.project	.vscode/settings.json	/^        "**\/.project": true,$/;"	b	object:files.exclude
+**/.settings	.vscode/settings.json	/^        "**\/.settings": true,$/;"	b	object:files.exclude
+.breadcrumbs	build/reports/tests/test/css/style.css	/^.breadcrumbs, .breadcrumbs a {$/;"	c
+.breadcrumbs a	build/reports/tests/test/css/style.css	/^.breadcrumbs, .breadcrumbs a {$/;"	s
+.counter	build/reports/tests/test/css/style.css	/^.counter, .percent {$/;"	c
+.failures	build/reports/tests/test/css/style.css	/^.failures, .failures a {$/;"	c
+.failures a	build/reports/tests/test/css/style.css	/^.failures, .failures a {$/;"	s
+.infoBox	build/reports/tests/test/css/style.css	/^.infoBox {$/;"	c
+.infoBox p	build/reports/tests/test/css/style.css	/^.infoBox p {$/;"	s
+.percent	build/reports/tests/test/css/style.css	/^.counter, .percent {$/;"	c
+.skipped	build/reports/tests/test/css/style.css	/^.skipped, .skipped a {$/;"	c
+.skipped a	build/reports/tests/test/css/style.css	/^.skipped, .skipped a {$/;"	s
+.success	build/reports/tests/test/css/style.css	/^.success, .success a {$/;"	c
+.success a	build/reports/tests/test/css/style.css	/^.success, .success a {$/;"	s
+.summaryGroup	build/reports/tests/test/css/style.css	/^#successRate, .summaryGroup {$/;"	c
+0	.vscode/tasks.json	/^                "-jar",$/;"	s	array:tasks.0.args
+0	.vscode/tasks.json	/^        {$/;"	o	array:tasks
+1	.vscode/tasks.json	/^                "build\/libs\/ajedrez-0.0.1-SNAPSHOT.jar"$/;"	s	array:tasks.0.args
+APP_BASE_NAME	gradlew.bat	/^set APP_BASE_NAME=%~n0$/;"	v
+APP_HOME	gradlew.bat	/^set APP_HOME=%DIRNAME%$/;"	v
+Additional Links	HELP.md	/^### Additional Links$/;"	S
+AjedrezApplicationTests	build/reports/tests/test/classes/com.example.ajedrez.AjedrezApplicationTests.html	/^<h1>AjedrezApplicationTests<\/h1>$/;"	h
+CLASSPATH	gradlew.bat	/^set CLASSPATH=%APP_HOME%\\gradle\\wrapper\\gradle-wrapper.jar$/;"	v
+CMD_LINE_ARGS	gradlew.bat	/^set CMD_LINE_ARGS=$/;"	v
+CMD_LINE_ARGS	gradlew.bat	/^set CMD_LINE_ARGS=%*$/;"	v
+Classes	build/reports/tests/test/index.html	/^<h2>Classes<\/h2>$/;"	i
+Classes	build/reports/tests/test/packages/com.example.ajedrez.html	/^<h2>Classes<\/h2>$/;"	i
+DEFAULT_JVM_OPTS	gradlew.bat	/^set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m"$/;"	v
+DIRNAME	gradlew.bat	/^if "%DIRNAME%" == "" set DIRNAME=.$/;"	v
+DIRNAME	gradlew.bat	/^set DIRNAME=%~dp0$/;"	v
+Getting Started	HELP.md	/^# Getting Started$/;"	c
+Guides	HELP.md	/^### Guides$/;"	S
+JAVA_EXE	gradlew.bat	/^set JAVA_EXE=%JAVA_HOME%\/bin\/java.exe$/;"	v
+JAVA_EXE	gradlew.bat	/^set JAVA_EXE=java.exe$/;"	v
+JAVA_HOME	gradlew.bat	/^set JAVA_HOME=%JAVA_HOME:"=%$/;"	v
+Package com.example.ajedrez	build/reports/tests/test/packages/com.example.ajedrez.html	/^<h1>Package com.example.ajedrez<\/h1>$/;"	h
+Packages	build/reports/tests/test/index.html	/^<h2>Packages<\/h2>$/;"	i
+Reference Documentation	HELP.md	/^### Reference Documentation$/;"	S
+Standard output	build/reports/tests/test/classes/com.example.ajedrez.AjedrezApplicationTests.html	/^<h2>Standard output<\/h2>$/;"	i
+Test Summary	build/reports/tests/test/index.html	/^<h1>Test Summary<\/h1>$/;"	h
+Tests	build/reports/tests/test/classes/com.example.ajedrez.AjedrezApplicationTests.html	/^<h2>Tests<\/h2>$/;"	i
+_SKIP	gradlew.bat	/^set _SKIP=2$/;"	v
+a	build/reports/tests/test/css/base-style.css	/^body, a, a:visited {$/;"	s
+a:visited	build/reports/tests/test/css/base-style.css	/^body, a, a:visited {$/;"	s
+addClass	build/reports/tests/test/js/report.js	/^    function addClass(element, classValue) {$/;"	f
+args	.vscode/tasks.json	/^            "args": [$/;"	a	object:tasks.0
+body	build/reports/tests/test/css/base-style.css	/^body {$/;"	s
+body	build/reports/tests/test/css/base-style.css	/^body, a, a:visited {$/;"	s
+changeElementClass	build/reports/tests/test/js/report.js	/^    function changeElementClass(element, classValue) {$/;"	f
+command	.vscode/tasks.json	/^            "command": "java",$/;"	s	object:tasks.0
+deselectAll	build/reports/tests/test/js/report.js	/^    function deselectAll() {$/;"	f
+die	gradlew	/^die () {$/;"	f
+distributionBase	gradle/wrapper/gradle-wrapper.properties	/^distributionBase=GRADLE_USER_HOME$/;"	k
+distributionPath	gradle/wrapper/gradle-wrapper.properties	/^distributionPath=wrapper\/dists$/;"	k
+distributionUrl	gradle/wrapper/gradle-wrapper.properties	/^distributionUrl=https\\:\/\/services.gradle.org\/distributions\/gradle-5.6.2-bin.zip$/;"	k
+div.deselected	build/reports/tests/test/css/base-style.css	/^div.deselected {$/;"	c
+div.failures	build/reports/tests/test/css/style.css	/^div.failures, #successRate.failures {$/;"	c
+div.selected	build/reports/tests/test/css/base-style.css	/^div.selected {$/;"	c
+div.success	build/reports/tests/test/css/style.css	/^div.success, #successRate.success {$/;"	c
+div.tab	build/reports/tests/test/css/base-style.css	/^div.tab {$/;"	c
+div.tab table	build/reports/tests/test/css/base-style.css	/^div.tab table {$/;"	s
+div.tab table	build/reports/tests/test/css/base-style.css	/^div.tab th, div.tab table {$/;"	s
+div.tab td	build/reports/tests/test/css/base-style.css	/^div.tab td {$/;"	s
+div.tab td.numeric	build/reports/tests/test/css/base-style.css	/^div.tab td.numeric, div.tab th.numeric {$/;"	c
+div.tab td:first-child	build/reports/tests/test/css/base-style.css	/^div.tab td:first-child {$/;"	s
+div.tab th	build/reports/tests/test/css/base-style.css	/^div.tab th {$/;"	s
+div.tab th	build/reports/tests/test/css/base-style.css	/^div.tab th, div.tab table {$/;"	s
+div.tab th.numeric	build/reports/tests/test/css/base-style.css	/^div.tab td.numeric, div.tab th.numeric {$/;"	c
+div.tab th:first-child	build/reports/tests/test/css/base-style.css	/^div.tab th:first-child {$/;"	s
+end	gradlew.bat	/^:end$/;"	l
+execute	gradlew.bat	/^:execute$/;"	l
+fail	gradlew.bat	/^:fail$/;"	l
+files.exclude	.vscode/settings.json	/^    "files.exclude": {$/;"	o
+findChildElements	build/reports/tests/test/js/report.js	/^    function findChildElements(container, name, targetClass) {$/;"	f
+findCodeBlocks	build/reports/tests/test/js/report.js	/^    function findCodeBlocks() {$/;"	f
+findHeaders	build/reports/tests/test/js/report.js	/^    function findHeaders(container) {$/;"	f
+findJavaFromJavaHome	gradlew.bat	/^:findJavaFromJavaHome$/;"	l
+findTabs	build/reports/tests/test/js/report.js	/^    function findTabs(container) {$/;"	f
+findTitles	build/reports/tests/test/js/report.js	/^    function findTitles(tabs) {$/;"	f
+forAllCodeBlocks	build/reports/tests/test/js/report.js	/^    function forAllCodeBlocks(operation) {$/;"	f
+getCheckBox	build/reports/tests/test/js/report.js	/^    function getCheckBox() {$/;"	f
+getClassAttribute	build/reports/tests/test/js/report.js	/^    function getClassAttribute(element) {$/;"	f
+getLabelForCheckBox	build/reports/tests/test/js/report.js	/^    function getLabelForCheckBox() {$/;"	f
+gradle.version	.gradle/buildOutputCleanup/cache.properties	/^gradle.version=5.6.2$/;"	k
+h1	build/reports/tests/test/css/base-style.css	/^h1, h2, h3 {$/;"	s
+h2	build/reports/tests/test/css/base-style.css	/^h1, h2, h3 {$/;"	s
+h2	build/reports/tests/test/css/base-style.css	/^h2 {$/;"	s
+h3	build/reports/tests/test/css/base-style.css	/^h1, h2, h3 {$/;"	s
+init	gradlew.bat	/^:init$/;"	l
+initControls	build/reports/tests/test/js/report.js	/^    function initControls() {$/;"	f
+initTabs	build/reports/tests/test/js/report.js	/^    function initTabs() {$/;"	f
+label	.vscode/tasks.json	/^            "label": "run",$/;"	s	object:tasks.0
+label.hidden	build/reports/tests/test/css/base-style.css	/^label.hidden {$/;"	c
+mainEnd	gradlew.bat	/^:mainEnd$/;"	l
+omega	gradlew.bat	/^:omega$/;"	l
+onload	build/reports/tests/test/js/report.js	/^    window.onload = function() {$/;"	f	function:window
+removeClass	build/reports/tests/test/js/report.js	/^    function removeClass(element, classValue) {$/;"	f
+save	gradlew	/^save () {$/;"	f
+select	build/reports/tests/test/js/report.js	/^    function select(i) {$/;"	c
+span.code	build/reports/tests/test/css/base-style.css	/^span.code {$/;"	c
+span.code pre	build/reports/tests/test/css/base-style.css	/^span.code pre {$/;"	s
+span.wrapped pre	build/reports/tests/test/css/base-style.css	/^span.wrapped pre {$/;"	s
+switchTab	build/reports/tests/test/js/report.js	/^    function switchTab() {$/;"	f
+tabs	build/reports/tests/test/js/report.js	/^    var tabs = {};$/;"	v
+tasks	.vscode/tasks.json	/^    "tasks": [$/;"	a
+toggleLineWrapping	build/reports/tests/test/js/report.js	/^    function toggleLineWrapping() {$/;"	f
+type	.vscode/tasks.json	/^            "type": "shell",$/;"	s	object:tasks.0
+ul	build/reports/tests/test/css/base-style.css	/^ul {$/;"	s
+ul.linkList	build/reports/tests/test/css/style.css	/^ul.linkList {$/;"	c
+ul.linkList li	build/reports/tests/test/css/style.css	/^ul.linkList li {$/;"	s
+ul.tabLinks	build/reports/tests/test/css/base-style.css	/^ul.tabLinks {$/;"	c
+ul.tabLinks a	build/reports/tests/test/css/base-style.css	/^ul.tabLinks a {$/;"	s
+ul.tabLinks li	build/reports/tests/test/css/base-style.css	/^ul.tabLinks li {$/;"	s
+ul.tabLinks li h2	build/reports/tests/test/css/base-style.css	/^ul.tabLinks li h2 {$/;"	s
+ul.tabLinks li.selected	build/reports/tests/test/css/base-style.css	/^ul.tabLinks li.selected {$/;"	c
+ul.tabLinks li:hover	build/reports/tests/test/css/base-style.css	/^ul.tabLinks li:hover {$/;"	s
+warn	gradlew	/^warn () {$/;"	f
+win9xME_args	gradlew.bat	/^:win9xME_args$/;"	l
+win9xME_args_slurp	gradlew.bat	/^:win9xME_args_slurp$/;"	l
+zipStoreBase	gradle/wrapper/gradle-wrapper.properties	/^zipStoreBase=GRADLE_USER_HOME$/;"	k
+zipStorePath	gradle/wrapper/gradle-wrapper.properties	/^zipStorePath=wrapper\/dists$/;"	k
