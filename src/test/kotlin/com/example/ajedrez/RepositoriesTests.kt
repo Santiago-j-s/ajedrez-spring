@@ -15,8 +15,8 @@ class RepositoriesTests @Autowired constructor(
     @Test
     fun `When findByIdOrNull then return User`() {
         val admin = User("admin", "Santiago Santana")
-        entityManager.persist(admin)
 
+        entityManager.persist(admin)
         entityManager.flush()
 
         val userFound = userRepository.findByUsername("admin")
@@ -24,12 +24,31 @@ class RepositoriesTests @Autowired constructor(
     }
 
     @Test
-    fun `When findByName then return Role`() {
-        val user = User("admin", "Santiago Santana")
-        entityManager.persist(user)
-        val role = Role("admin role", user)
-        entityManager.persist(role)
+    fun `When findByRoleName then return List of User`() {
+        val user1 = User("user1", "Santiago Santana")
+        val user2 = User("user2", "John Doe")
 
+        val role = Role("user role")
+        user1.role = role
+        user2.role = role
+
+        entityManager.persist(role)
+        entityManager.persist(user1)
+        entityManager.persist(user2)
+        entityManager.flush()
+
+        val users = userRepository.findByRoleName("user role")
+
+        assertThat(users).isInstanceOf(List::class.java)
+        assertThat(users.contains(user1))
+        assertThat(users.contains(user2))
+    }
+
+    @Test
+    fun `When findByName then return Role`() {
+        val role = Role("admin role")
+
+        entityManager.persist(role)
         entityManager.flush()
 
         val roleFound = roleRepository.findByName("admin role")
@@ -37,16 +56,17 @@ class RepositoriesTests @Autowired constructor(
     }
 
     @Test
-    fun `When findByUserUsername then return List of Role`() {
-        val user = User("admin", "Santiago Santana")
-        entityManager.persist(user)
-        val role = Role("admin role", user)
+    fun `When findByUserUsername then return Role`() {
+        val role = Role("admin role")
         entityManager.persist(role)
 
+        val user = User("admin", "Santiago Santana")
+        user.role = role
+
+        entityManager.persist(user)
         entityManager.flush()
 
-        val roles = roleRepository.findByUserUsername("admin")
-        assertThat(roles).isInstanceOf(List::class.java)
-        assertThat(roles[0]).isEqualTo(role)
+        val roleFound = roleRepository.findByUsersUsername("admin")
+        assertThat(roleFound).isEqualTo(role)
     }
 }
